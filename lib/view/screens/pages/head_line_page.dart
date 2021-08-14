@@ -7,7 +7,7 @@ class HeadLinePage extends StatelessWidget {
       child: Scaffold(
         body: Container(
           child: Center(
-            child: Text("HeadLine!"),
+            child: Text("HeadLine!!"),
           ),
         ),
         floatingActionButton: FloatingActionButton(
