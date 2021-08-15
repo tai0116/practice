@@ -21,4 +21,6 @@ class HeadLineViewModel extends ChangeNotifier {
 
   List<Article> _articles = [];
   List<Article> get articles => _articles;
+
+  Future<void> getHeadLines({required SearchType searchType}) async {}
 }
